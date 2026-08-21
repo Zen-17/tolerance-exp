@@ -1,0 +1,175 @@
+{
+  "single_k_rtol": null,
+  "single_k_atol": null,
+  "use_risk_curves": true,
+  "reason": "No evidence for a single K rtol/atol; use lifetime risk curves.",
+  "s_tolerance_used": {
+    "s_rtol_scaled": 1e-05,
+    "s_atol_scaled": 1e-05,
+    "source": "expA_balanced_scaled",
+    "path": "/opt/data/data/tolerance-exp/results/expA_smoke_spec/tables/recommendation.json"
+  },
+  "sparsity": "single_K_element_per_sample",
+  "lifetime": {
+    "n": 288,
+    "windows": [
+      "1",
+      "2",
+      "16",
+      "full"
+    ],
+    "H_L1": {
+      "numerator": 51,
+      "denominator": 288,
+      "estimate": 0.17708333333333334,
+      "ci95_low": 0.13733070710540088,
+      "ci95_high": 0.22533726072372293
+    },
+    "H_L2": {
+      "numerator": 68,
+      "denominator": 288,
+      "estimate": 0.2361111111111111,
+      "ci95_low": 0.19073565790452726,
+      "ci95_high": 0.28843386419239114
+    },
+    "H_L16": {
+      "numerator": 90,
+      "denominator": 288,
+      "estimate": 0.3125,
+      "ci95_low": 0.26173142718669185,
+      "ci95_high": 0.36820481219796075
+    },
+    "H_Lfull": {
+      "numerator": 90,
+      "denominator": 288,
+      "estimate": 0.3125,
+      "ci95_low": 0.26173142718669185,
+      "ci95_high": 0.36820481219796075
+    },
+    "delayed_harm": {
+      "numerator": 39,
+      "denominator": 288,
+      "estimate": 0.13541666666666666,
+      "ci95_low": 0.10066609719122874,
+      "ci95_high": 0.17976547939004003
+    },
+    "rel_ppl_p95": 0.010419190986748568,
+    "rel_ppl_p99": 0.03516521087984943,
+    "rel_ppl_worst": 0.11541412662618038
+  },
+  "k_to_s": {
+    "n": 288,
+    "future_amplified": {
+      "numerator": 139,
+      "denominator": 288,
+      "estimate": 0.4826388888888889,
+      "ci95_low": 0.42553583073584367,
+      "ci95_high": 0.5401990062442169
+    },
+    "p_fail_s_full": {
+      "numerator": 157,
+      "denominator": 288,
+      "estimate": 0.5451388888888888,
+      "ci95_low": 0.4874101443263798,
+      "ci95_high": 0.6016792795254631
+    },
+    "by_bit_class": {
+      "sign": {
+        "n": 32,
+        "p_fail_s_full": {
+          "numerator": 32,
+          "denominator": 32,
+          "estimate": 1.0,
+          "ci95_low": 0.8928172849426366,
+          "ci95_high": 1.0
+        },
+        "mean_max_es_future_finite": 0.5623486433178186,
+        "n_finite": 32,
+        "n_inf": 0,
+        "n_nan": 0
+      },
+      "exponent": {
+        "n": 32,
+        "p_fail_s_full": {
+          "numerator": 32,
+          "denominator": 32,
+          "estimate": 1.0,
+          "ci95_low": 0.8928172849426366,
+          "ci95_high": 1.0
+        },
+        "mean_max_es_future_finite": 7.657176350084124e+36,
+        "n_finite": 21,
+        "n_inf": 7,
+        "n_nan": 4
+      },
+      "mantissa": {
+        "n": 32,
+        "p_fail_s_full": {
+          "numerator": 30,
+          "denominator": 32,
+          "estimate": 0.9375,
+          "ci95_low": 0.7985253275199642,
+          "ci95_high": 0.9826897968048427
+        },
+        "mean_max_es_future_finite": 0.0016058990731835365,
+        "n_finite": 32,
+        "n_inf": 0,
+        "n_nan": 0
+      }
+    },
+    "by_layer": {
+      "4": {
+        "n": 108,
+        "p_fail_s_full": {
+          "numerator": 58,
+          "denominator": 108,
+          "estimate": 0.5370370370370371,
+          "ci95_low": 0.44334384333440474,
+          "ci95_high": 0.6281858915763978
+        },
+        "mean_max_es_future_finite": 7.446586519490824e+35,
+        "n_finite": 104,
+        "n_inf": 2,
+        "n_nan": 2
+      },
+      "18": {
+        "n": 90,
+        "p_fail_s_full": {
+          "numerator": 49,
+          "denominator": 90,
+          "estimate": 0.5444444444444444,
+          "ci95_low": 0.4418444949284148,
+          "ci95_high": 0.6434055434341024
+        },
+        "mean_max_es_future_finite": 4.349750040406831e+35,
+        "n_finite": 86,
+        "n_inf": 2,
+        "n_nan": 2
+      },
+      "31": {
+        "n": 90,
+        "p_fail_s_full": {
+          "numerator": 50,
+          "denominator": 90,
+          "estimate": 0.5555555555555556,
+          "ci95_low": 0.4527174112548652,
+          "ci95_high": 0.6538451366982815
+        },
+        "mean_max_es_future_finite": 5.281419908225666e+35,
+        "n_finite": 87,
+        "n_inf": 3,
+        "n_nan": 0
+      }
+    }
+  },
+  "figures": [
+    "/opt/data/data/tolerance-exp/results/expB_smoke/figures/k_lifetime_harm.png",
+    "/opt/data/data/tolerance-exp/results/expB_smoke/figures/k_lifetime_harm.pdf",
+    "/opt/data/data/tolerance-exp/results/expB_smoke/figures/k_to_s_scatter.png",
+    "/opt/data/data/tolerance-exp/results/expB_smoke/figures/k_to_s_scatter.pdf",
+    "/opt/data/data/tolerance-exp/results/expB_smoke/figures/k_bitclass.png",
+    "/opt/data/data/tolerance-exp/results/expB_smoke/figures/k_bitclass.pdf",
+    "/opt/data/data/tolerance-exp/results/expB_smoke/figures/k_layer.png",
+    "/opt/data/data/tolerance-exp/results/expB_smoke/figures/k_layer.pdf"
+  ]
+}

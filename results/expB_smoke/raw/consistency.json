@@ -1,0 +1,23 @@
+{
+  "layer": 4,
+  "ctx": 256,
+  "first_divergence": null,
+  "top1": {
+    "numerator": 0,
+    "denominator": 16,
+    "estimate": 0.0,
+    "ci95_low": 0.0,
+    "ci95_high": 0.19361341827271994,
+    "n_compared": 16
+  },
+  "ppl_flash": 1.0006373621467188,
+  "ppl_ref": 1.0006558297294483,
+  "logits": {
+    "max_abs": 0.171875,
+    "rel_l2": 0.007527731947920375,
+    "has_nan_inf": false
+  },
+  "attn_output_max_abs": 0.0019509196281433105,
+  "n_flash_tokens": 16,
+  "n_ref_tokens": 16
+}

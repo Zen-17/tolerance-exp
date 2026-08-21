@@ -1,0 +1,16 @@
+{
+  "vllm": "0.8.5.post1",
+  "vllm_file": "/opt/data/data/workspace-vllm/vllm/__init__.py",
+  "torch": "2.6.0+cu124",
+  "cuda": "12.4",
+  "gpu": "NVIDIA GeForce RTX 4090",
+  "model_path": "/opt/data/data/models/Qwen3-8B",
+  "weights_dtype": "bfloat16",
+  "activation_dtype": "bfloat16",
+  "kv_cache_dtype": "auto",
+  "attention_backend": "FLASH_ATTN_VLLM_V1",
+  "enforce_eager": true,
+  "enable_prefix_caching": false,
+  "greedy": true,
+  "seed": 42
+}

@@ -1,0 +1,156 @@
+{
+  "n_trials": 1080,
+  "used_for_selection": false,
+  "lifetime": {
+    "n": 1080,
+    "windows": [
+      "1",
+      "2",
+      "16",
+      "full"
+    ],
+    "H_L1": {
+      "numerator": 202,
+      "denominator": 1080,
+      "estimate": 0.18703703703703703,
+      "ci95_low": 0.16490462963611002,
+      "ci95_high": 0.21138799467356767
+    },
+    "H_L2": {
+      "numerator": 261,
+      "denominator": 1080,
+      "estimate": 0.24166666666666667,
+      "ci95_low": 0.21707928532122203,
+      "ci95_high": 0.2680853365201983
+    },
+    "H_L16": {
+      "numerator": 323,
+      "denominator": 1080,
+      "estimate": 0.29907407407407405,
+      "ci95_low": 0.2725186500685737,
+      "ci95_high": 0.3270538335858644
+    },
+    "H_Lfull": {
+      "numerator": 323,
+      "denominator": 1080,
+      "estimate": 0.29907407407407405,
+      "ci95_low": 0.2725186500685737,
+      "ci95_high": 0.3270538335858644
+    },
+    "delayed_harm": {
+      "numerator": 121,
+      "denominator": 1080,
+      "estimate": 0.11203703703703703,
+      "ci95_low": 0.09458377341698769,
+      "ci95_high": 0.1322405152982637
+    },
+    "rel_ppl_p95": 0.011005325356465458,
+    "rel_ppl_p99": 0.045511372817416434,
+    "rel_ppl_worst": 0.11392290235257553
+  },
+  "k_to_s": {
+    "n": 1080,
+    "future_amplified": {
+      "numerator": 538,
+      "denominator": 1080,
+      "estimate": 0.4981481481481482,
+      "ci95_low": 0.468387360149693,
+      "ci95_high": 0.5279220636627903
+    },
+    "p_fail_s_full": {
+      "numerator": 598,
+      "denominator": 1080,
+      "estimate": 0.5537037037037037,
+      "ci95_low": 0.5239173899622303,
+      "ci95_high": 0.583109319475754
+    },
+    "by_bit_class": {
+      "sign": {
+        "n": 120,
+        "p_fail_s_full": {
+          "numerator": 120,
+          "denominator": 120,
+          "estimate": 1.0,
+          "ci95_low": 0.9689797289440706,
+          "ci95_high": 1.0
+        },
+        "mean_max_es_future_finite": 0.39574060365557673,
+        "n_finite": 120,
+        "n_inf": 0,
+        "n_nan": 0
+      },
+      "exponent": {
+        "n": 120,
+        "p_fail_s_full": {
+          "numerator": 120,
+          "denominator": 120,
+          "estimate": 1.0,
+          "ci95_low": 0.9689797289440706,
+          "ci95_high": 1.0
+        },
+        "mean_max_es_future_finite": 1.2288924675944109e+37,
+        "n_finite": 71,
+        "n_inf": 28,
+        "n_nan": 21
+      },
+      "mantissa": {
+        "n": 120,
+        "p_fail_s_full": {
+          "numerator": 118,
+          "denominator": 120,
+          "estimate": 0.9833333333333333,
+          "ci95_low": 0.9412628731870861,
+          "ci95_high": 0.9954175314588486
+        },
+        "mean_max_es_future_finite": 0.0010983674864595136,
+        "n_finite": 120,
+        "n_inf": 0,
+        "n_nan": 0
+      }
+    },
+    "by_layer": {
+      "4": {
+        "n": 378,
+        "p_fail_s_full": {
+          "numerator": 209,
+          "denominator": 378,
+          "estimate": 0.5529100529100529,
+          "ci95_low": 0.5025049244830856,
+          "ci95_high": 0.6022505552760605
+        },
+        "mean_max_es_future_finite": 7.457135832884583e+35,
+        "n_finite": 359,
+        "n_inf": 14,
+        "n_nan": 5
+      },
+      "18": {
+        "n": 378,
+        "p_fail_s_full": {
+          "numerator": 210,
+          "denominator": 378,
+          "estimate": 0.5555555555555556,
+          "ci95_low": 0.5051524709789635,
+          "ci95_high": 0.60484078276814
+        },
+        "mean_max_es_future_finite": 1.0662346490857608e+36,
+        "n_finite": 362,
+        "n_inf": 9,
+        "n_nan": 7
+      },
+      "31": {
+        "n": 324,
+        "p_fail_s_full": {
+          "numerator": 179,
+          "denominator": 324,
+          "estimate": 0.5524691358024691,
+          "ci95_low": 0.4980251160444927,
+          "ci95_high": 0.6056835042160233
+        },
+        "mean_max_es_future_finite": 7.058888149110637e+35,
+        "n_finite": 310,
+        "n_inf": 5,
+        "n_nan": 9
+      }
+    }
+  }
+}

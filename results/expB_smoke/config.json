@@ -1,0 +1,104 @@
+{
+  "profile": "smoke",
+  "model_path": "/opt/data/data/models/Qwen3-8B",
+  "dataset_name": "smallexp2_synthetic_lm_v1",
+  "dataset_path": null,
+  "data": {
+    "dataset_name": "smallexp2_synthetic_lm_v1",
+    "dataset_version": "1.0",
+    "tokenizer_name": "/opt/data/data/models/Qwen3-8B",
+    "preprocessing": "pack_nonoverlap_256_plus_1_target_no_specials",
+    "seq_len": 256,
+    "short_ctx": 64,
+    "long_ctx": 256,
+    "n_sequences": 20,
+    "split_counts": {
+      "calibration": 16,
+      "test": 4
+    },
+    "data_hash": "fbfd670c48f32594"
+  },
+  "geometry": {
+    "num_layers": 36,
+    "num_q_heads": 32,
+    "num_kv_heads": 8,
+    "head_dim": 128,
+    "hidden_size": 4096,
+    "torch_dtype": "bfloat16",
+    "early_layer": 4,
+    "middle_layer": 18,
+    "late_layer": 31,
+    "scale": 0.08838834764831845,
+    "queries_per_kv": 4
+  },
+  "layers": [
+    4,
+    18,
+    31
+  ],
+  "kv_heads_by_layer": {
+    "4": [
+      4,
+      5
+    ],
+    "18": [
+      1,
+      7
+    ],
+    "31": [
+      0,
+      1
+    ]
+  },
+  "seeds": [
+    42
+  ],
+  "max_tokens": 16,
+  "numeric_rels": [
+    1e-06,
+    1e-05,
+    0.0001,
+    0.001,
+    0.01,
+    0.1
+  ],
+  "bit_classes": [
+    "sign",
+    "exponent",
+    "mantissa"
+  ],
+  "ctxs": [
+    64,
+    256
+  ],
+  "run_split": "calibration",
+  "prompt_ids": [
+    "seq_0000",
+    "seq_0001",
+    "seq_0002",
+    "seq_0003",
+    "seq_0004",
+    "seq_0005",
+    "seq_0006",
+    "seq_0007",
+    "seq_0008",
+    "seq_0009",
+    "seq_0010",
+    "seq_0011",
+    "seq_0012",
+    "seq_0013",
+    "seq_0014",
+    "seq_0015"
+  ],
+  "created_utc": "20260820T030020Z",
+  "seq_len": 256,
+  "short_ctx": 64,
+  "inject": "persistent_single_k_after_prefill_cache_write",
+  "s_tolerance": {
+    "s_rtol_scaled": 1e-05,
+    "s_atol_scaled": 1e-05,
+    "source": "expA_balanced_scaled",
+    "path": "/opt/data/data/tolerance-exp/results/expA_smoke_spec/tables/recommendation.json"
+  },
+  "heads_are": "kv_heads"
+}

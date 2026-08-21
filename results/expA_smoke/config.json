@@ -1,0 +1,45 @@
+{
+  "profile": "smoke",
+  "model_path": "/opt/data/data/models/Qwen3-8B",
+  "geometry": {
+    "num_layers": 36,
+    "num_q_heads": 32,
+    "num_kv_heads": 8,
+    "head_dim": 128,
+    "hidden_size": 4096,
+    "torch_dtype": "bfloat16",
+    "early_layer": 4,
+    "middle_layer": 18,
+    "late_layer": 31,
+    "scale": 0.08838834764831845,
+    "queries_per_kv": 4
+  },
+  "layers": [
+    18
+  ],
+  "heads": [
+    5,
+    26
+  ],
+  "seed": 42,
+  "max_tokens": 16,
+  "modes": [
+    "single",
+    "sparse",
+    "top2_gap"
+  ],
+  "gammas": [
+    0.001,
+    0.1
+  ],
+  "relatives": [
+    false
+  ],
+  "split": "smoke",
+  "prompt_ids": [
+    "cal_00",
+    "cal_01"
+  ],
+  "data_hash": "f04580529c0e985c",
+  "created_utc": "20260820T014643Z"
+}

@@ -1,0 +1,61 @@
+{
+  "n_trials": 4320,
+  "harmful_rate": {
+    "numerator": 796,
+    "denominator": 4320,
+    "estimate": 0.18425925925925926,
+    "ci95_low": 0.1729802640388274,
+    "ci95_high": 0.19609930631361103
+  },
+  "used_for_selection": false,
+  "strict": {
+    "rtol_scaled": 1e-06,
+    "atol_scaled": 1e-07,
+    "harmful_pass": {
+      "numerator": 10,
+      "denominator": 796,
+      "estimate": 0.01256281407035176,
+      "ci95_low": 0.006837881314805273,
+      "ci95_high": 0.022970020649783714
+    },
+    "benign_reject": {
+      "numerator": 2972,
+      "denominator": 3524,
+      "estimate": 0.8433598183881952,
+      "ci95_low": 0.8309862178281063,
+      "ci95_high": 0.8549856239915489
+    },
+    "calibration_harmful_pass": {
+      "numerator": 35,
+      "denominator": 3795,
+      "estimate": 0.00922266139657444,
+      "ci95_low": 0.006638902921456651,
+      "ci95_high": 0.012799022576674144
+    }
+  },
+  "balanced": {
+    "rtol_scaled": 1e-06,
+    "atol_scaled": 1e-05,
+    "harmful_pass": {
+      "numerator": 22,
+      "denominator": 796,
+      "estimate": 0.02763819095477387,
+      "ci95_low": 0.018321448476403553,
+      "ci95_high": 0.04149239466453835
+    },
+    "benign_reject": {
+      "numerator": 2457,
+      "denominator": 3524,
+      "estimate": 0.6972190692395006,
+      "ci95_low": 0.6818410009980117,
+      "ci95_high": 0.7121676188901375
+    },
+    "calibration_harmful_pass": {
+      "numerator": 95,
+      "denominator": 3795,
+      "estimate": 0.025032938076416336,
+      "ci95_low": 0.02052208908436002,
+      "ci95_high": 0.03050441331047528
+    }
+  }
+}

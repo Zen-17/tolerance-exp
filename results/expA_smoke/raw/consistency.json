@@ -1,0 +1,22 @@
+{
+  "flash_seconds": 0.7570961080491543,
+  "ref_seconds": 1.1833747886121273,
+  "first_divergence": null,
+  "top1": {
+    "numerator": 0,
+    "denominator": 16,
+    "estimate": 0.0,
+    "ci95_low": 0.0,
+    "ci95_high": 0.19361341827271994,
+    "n_compared": 16
+  },
+  "ppl_flash": 1.1866366050249373,
+  "ppl_ref": 1.1805674055337834,
+  "logits": {
+    "max_abs": 0.625,
+    "rel_l2": 0.018434430288708326,
+    "has_nan_inf": false
+  },
+  "n_flash_tokens": 16,
+  "n_ref_tokens": 16
+}

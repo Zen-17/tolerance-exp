@@ -1,0 +1,40 @@
+{
+  "strict_s_rtol_scaled": 1e-06,
+  "strict_s_atol_scaled": 1e-07,
+  "strict_harmful_pass": {
+    "numerator": 1,
+    "denominator": 245,
+    "estimate": 0.004081632653061225,
+    "ci95_low": 0.0007208535639181141,
+    "ci95_high": 0.022754321004964263
+  },
+  "strict_benign_reject": {
+    "numerator": 756,
+    "denominator": 907,
+    "estimate": 0.8335170893054025,
+    "ci95_low": 0.8078772988095518,
+    "ci95_high": 0.8563435712078037
+  },
+  "balanced_s_rtol_scaled": 1e-05,
+  "balanced_s_atol_scaled": 1e-05,
+  "balanced_harmful_pass": {
+    "numerator": 11,
+    "denominator": 245,
+    "estimate": 0.044897959183673466,
+    "ci95_low": 0.025252201477064612,
+    "ci95_high": 0.07859538670754761
+  },
+  "balanced_benign_reject": {
+    "numerator": 528,
+    "denominator": 907,
+    "estimate": 0.5821389195148843,
+    "ci95_low": 0.5497600988799135,
+    "ci95_high": 0.6138248757194021
+  },
+  "recommended_s_rtol_raw": 1e-05,
+  "recommended_s_atol_raw": 0.00011313708498984762,
+  "result_rtol": 1e-05,
+  "result_atol": 0.00011313708498984762,
+  "head_dim": 128,
+  "note": "raw atol = sqrt(d_h) * scaled atol; raw rtol = scaled rtol. Smoke/phase-1 values are calibration only; test split is not used for selection."
+}

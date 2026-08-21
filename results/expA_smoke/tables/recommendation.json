@@ -1,0 +1,40 @@
+{
+  "strict_s_rtol_scaled": 1e-06,
+  "strict_s_atol_scaled": 1e-07,
+  "strict_harmful_pass": {
+    "numerator": 0,
+    "denominator": 48,
+    "estimate": 0.0,
+    "ci95_low": 6.938893903907228e-18,
+    "ci95_high": 0.0741026511527422
+  },
+  "strict_benign_reject": {
+    "numerator": 144,
+    "denominator": 144,
+    "estimate": 1.0,
+    "ci95_low": 0.974015432733412,
+    "ci95_high": 0.9999999999999999
+  },
+  "balanced_s_rtol_scaled": 1e-05,
+  "balanced_s_atol_scaled": 1e-06,
+  "balanced_harmful_pass": {
+    "numerator": 0,
+    "denominator": 48,
+    "estimate": 0.0,
+    "ci95_low": 6.938893903907228e-18,
+    "ci95_high": 0.0741026511527422
+  },
+  "balanced_benign_reject": {
+    "numerator": 144,
+    "denominator": 144,
+    "estimate": 1.0,
+    "ci95_low": 0.974015432733412,
+    "ci95_high": 0.9999999999999999
+  },
+  "recommended_s_rtol_raw": 1e-05,
+  "recommended_s_atol_raw": 1.1313708498984761e-05,
+  "result_rtol": 1e-05,
+  "result_atol": 1.1313708498984761e-05,
+  "head_dim": 128,
+  "note": "raw atol = sqrt(d_h) * scaled atol; raw rtol = scaled rtol. Smoke/phase-1 values are calibration only; test split is not used for selection."
+}
